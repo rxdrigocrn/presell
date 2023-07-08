@@ -1,0 +1,16 @@
+* {  
+    box-sizing: border-box;
+    text-decoration: none;  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+
+
+body {
+  background: linear-gradient(45deg, rgb(145, 184, 255), rgb(0, 14, 57));
+}
