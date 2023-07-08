@@ -1,3 +1,44 @@
+/* new code */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    padding: 0px 20px;
+    margin: 0px auto;
+
+}
+
+.intro-menu {
+    background-color: #fff;
+    border: 2px solid #7b7a7a;
+    border-radius: 8px;
+}
+
+.intro-menu h2 {
+    margin-bottom: 16px;
+}
+.intro-menu h3 {
+    margin-bottom: 10px;
+}
+
+.comecar {
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.59) 0px 1px 30px -5px;
+    background-color: #c45500;
+    color: #fff;
+
+    transition: all .15s ease;
+}
+
+.comecar:hover {
+    background-color: #853a00;
+}
+
+/* new code */
+
 .logo-amazon {
     height: 40px;
     text-align: center;
