@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap%27');
+
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg,rgb(42, 35, 71), rgb(120, 65, 191));
+  height: 100vh;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-container {
+    padding: 0px 20px;
+    margin: 0px auto;
+    max-width: 1100px;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 16px;
+  text-align: center;
+}
+
+header{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #fff;
+}
+
+.box-saldo{
+    background: linear-gradient(45deg, rgb(42,35,71), rgb(120,65,191));
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 40px;
+}
+
+.direitos {
+    padding-top: 200px;
+
+}
+.ilustrativo{
+    padding-top: 40px;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.watch-video {
+  all: unset;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  background: #7841bf;
+  box-shadow: 0px 0px 17px 0px rgba(0, 55.999999999999986, 46.99999999999999, 0.45);
+  animation: pulse 2s linear 0s infinite;
+}
+
+footer{
+  margin-top: 60px;
+  width: 100%;
+  padding: 30px;
+  background: rgb(30 41 59);
+  color: #fff;
+}
+
+footer .footer-content{
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+
+@media (max-width: 768px){
+  h2 {
+    font-size: 1.25rem;
+  }
+}

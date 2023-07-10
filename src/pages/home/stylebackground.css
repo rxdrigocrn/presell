@@ -12,5 +12,6 @@
 
 
 body {
-  background: linear-gradient(180deg,rgb(42, 35, 71), rgb(120, 65, 191));
+  /* background: linear-gradient(180deg,rgb(42, 35, 71), rgb(120, 65, 191)); */
+  background: #0f172a;
 }
